@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title> Learn Make a Card Shop Use SCSS </title>
+</head>
+<body>
+  
+  <!-- Container -->
+  <div class="container">
+    <img src="sneakers.jpg" alt="Sneakers Image" class="card-img">
+    <div class="card-content">
+      <div class="product-info">
+        <div class="product-name">
+          <h1> Product Name </h1>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <span class="product-cost">
+          <h1> $99.99 </h1>
+        </span>
+      </div>
+      <div class="product-type">
+        <div class="product-size">
+          <h1> Size </h1>
+          <div>
+            <input type="radio" name="p-size" class="p-size">S
+            <input type="radio" name="p-size" class="p-size" checked>M
+            <input type="radio" name="p-size" class="p-size">L
+          </div>
+        </div>
+        <div class="product-color">
+          <h1> Color </h1>
+          <div>
+            <input type="radio" name="p-color" id="p-color-r">
+            <input type="radio" name="p-color" id="p-color-g" checked>
+            <input type="radio"  name="p-color" id="p-color-b">
+          </div>
+        </div>
+      </div>
+      <div class="card-btn">
+        <button class="btn-buy"> Buy Now <i class="fas fa-bag-shopping"></i> </button>
+        <button class="btn-add-cart"> Add to Cart <i class="fa-solid fa-cart-shopping"></i> </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
